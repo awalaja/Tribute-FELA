@@ -3,50 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FCC Tribute Page Project - FELA</title>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <div id="main">
+    <main class="main container">
         
         <div class="title-head">
-            <h1 id="title"> FELA KUTI</h1>
-            <h5>'He Who Carries Death in His Pouch'</h5>
+            <h1 class="title">FELA KUTI</h1>
+            <h5 class="title__text">'He Who Carries Death in His Pouch'</h5>
         </div>
         
-        <div id="img-div">
-            <img id="image" class="img-responsive" src="http://venturesafrica.com/wp-content/uploads/2015/10/o-FELA-KUTI-facebook.jpg">
-            <h6 id="img-caption">Fela in concert. (source:<a href="http://venturesafrica.com/">Ventures Africa</a>)</h6> 
-        </div>
+        <figure>
+            <img class="fig__img" src="http://venturesafrica.com/wp-content/uploads/2015/10/o-FELA-KUTI-facebook.jpg" alt="picture of Fela">
+            <figcaption class="fig__text"><h6 id="img-caption">Fela in concert. (source:<a href="http://venturesafrica.com/">Ventures Africa</a>)</h6></figcaption>
+        </figure>
         
-        <div id="tribute-info">
-        <h4>Times in the life of Fela Anikulapo Kuti</h4>
-            <ul>
-            <li><b>1938</b> Born in Abeokuta, north of Lagos Nigeria</li>
-            <li><b>1958</b> Parents sent him off to London for what they assumed would be a medical education; instead, Fela registered at Trinity College's school of music</li>
-            <li><b>1960</b> Married his first wife, Remilekun (Remi) Taylor, with whom he would have three children (Femi, Yeni, and Sola).</li>
-            <li><b>1961</b> Fela formed his first band, Koola Lobitos, in 1961, and quickly became a fixture on the London club scene.</li>
-            <li><b>1963</b> He returned to Nigeria and started another version of Koola Lobitos that was more influenced by the James Brown-style singing of Geraldo Pina from Sierra Leone.</li>
-            <li><b>1969</b> He returned to Nigeria in 1963 and started another version of Koola Lobitos that was more influenced by the James Brown-style singing of Geraldo Pina from Sierra Leone.</li>
-            <li><b>1977</b> In one of the most egregious acts of violence committed against him, 1,000 Nigerian soldiers attacked his Kalakuta compound.</li>
-            <li><b>1978</b> Returned to Nigeria from exile in Ghana after the Kalakuta tragedy</li>
-            <li><b>1984</b> Fela was sentenced to ten years in prison on charges of currency smuggling.</li>
-            <li><b>1985</b> Freed from prison with help from Amnesty International.</li>
-            <li><b>1997</b> Died aged 49.</li>
+        <div id="tribute-info container">
+            <h4 class="tribute__info--title">Times in the life of Fela Anikulapo Kuti</h4>
+            <ul class="timeline timeline__container">
+                <li><b>1938</b> Born in Abeokuta, north of Lagos Nigeria</li>
+                <li><b>1958</b> Parents sent him off to London for what they assumed would be a medical education; instead, Fela registered at Trinity College's school of music</li>
+                <li><b>1960</b> Married his first wife, Remilekun (Remi) Taylor, with whom he would have three children (Femi, Yeni, and Sola).</li>
+                <li><b>1961</b> Fela formed his first band, Koola Lobitos, in 1961, and quickly became a fixture on the London club scene.</li>
+                <li><b>1963</b> He returned to Nigeria and started another version of Koola Lobitos that was more influenced by the James Brown-style singing of Geraldo Pina from Sierra Leone.</li>
+                <li><b>1969</b> He returned to Nigeria in 1963 and started another version of Koola Lobitos that was more influenced by the James Brown-style singing of Geraldo Pina from Sierra Leone.</li>
+                <li><b>1977</b> In one of the most egregious acts of violence committed against him, 1,000 Nigerian soldiers attacked his Kalakuta compound.</li>
+                <li><b>1978</b> Returned to Nigeria from exile in Ghana after the Kalakuta tragedy</li>
+                <li><b>1984</b> Fela was sentenced to ten years in prison on charges of currency smuggling.</li>
+                <li><b>1985</b> Freed from prison with help from Amnesty International.</li>
+                <li><b>1997</b> Died aged 49.</li>
             </ul>
         </div>
     
-        <div id="quoted">
+        <div class="quoted">
             <q>I will be the master of my own destiny and will decide when it is time for death to take me</q>
-            <p><a id="tribute-link" href="http://www.allmusic.com/artist/fela-kuti-mn0000138833/biography" target="_blank">Find out more on this incredible musical icon.</a></p>
         </div>
+
+        <p class="tribute__link"><a href="http://www.allmusic.com/artist/fela-kuti-mn0000138833/biography" target="_blank">Read more about this incredible musical icon.</a></p>
     
         <footer>
-            <p>Written and coded by<a href="#"> Corleenx - Icebox Devz</a></p>
+            <p>Awalaja Technologies</p>
         </footer>
     
-    </div>
+    </main>
 </body>
 </html>
